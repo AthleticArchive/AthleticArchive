@@ -689,6 +689,16 @@
                         <subviews>
                             <view wantsLayer="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SZ9-im-SLB" userLabel="MainView">
                                 <rect key="frame" x="0.0" y="0.0" width="296" height="300"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JES-u0-QHE">
+                                        <rect key="frame" x="14" y="132" width="81" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R43-f3-GAH">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
                             </view>
                             <view wantsLayer="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAR-6D-wBW" userLabel="Scrolling View">
                                 <rect key="frame" x="304" y="0.0" width="146" height="300"/>
